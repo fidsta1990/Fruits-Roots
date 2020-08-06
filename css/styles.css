@@ -215,13 +215,14 @@ p {
 }
 
 .mob-links {
-  height: 0;
+  height: -212px;
   overflow: hidden;
   transition: var(--transition);
 }
 
 .show-links {
-  height: 212px;
+  height: 0px;
+  transition: var(--transition);
 }
 .mob-link {
   display: block;
@@ -452,6 +453,7 @@ main {
 
 .feature-title {
   text-align: center;
+  padding-top: 1rem;
 }
 .feature-center {
   transition: var(--transition);
